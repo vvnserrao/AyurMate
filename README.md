@@ -90,15 +90,12 @@ AyurBot/
 
 <img width="1727" alt="Home Page" src="https://github.com/user-attachments/assets/710283ae-bd69-4fab-a10c-3e9eb6c4acb3" />
 
-**Landing Page*****
 <img width="1727" alt="data set response" src="https://github.com/user-attachments/assets/67cbf43f-8eab-406f-98ca-8de90dbe8a5d" />
 
-**Chat Interface**
+<img width="1728" alt="llama reposne" src="https://github.com/user-attachments/assets/396ba691-96ca-4465-a4a2-e1c8e66e5d21" />
 
+<img width="1728" alt="Hindi response" src="https://github.com/user-attachments/assets/8fa59e9c-e065-4dfd-8f75-ebee94f8c055" />
 
-| Landing Page | Chat Interface | Remedy Example | Login/Register |
-|:------------:|:--------------:|:--------------:|:--------------:|
-| ![](screenshots/landing.png) | ![](screenshots/chat.png) | ![](screenshots/remedy.png) | ![](screenshots/login.png) |
 
 ## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.

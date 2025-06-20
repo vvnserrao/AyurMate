@@ -88,6 +88,13 @@ AyurBot/
 
 ## 📸 Screenshots
 
+<img width="1727" alt="Home Page" src="https://github.com/user-attachments/assets/710283ae-bd69-4fab-a10c-3e9eb6c4acb3" />
+
+**Landing Page*****
+<img width="1727" alt="data set response" src="https://github.com/user-attachments/assets/67cbf43f-8eab-406f-98ca-8de90dbe8a5d" />
+
+**Chat Interface**
+
 
 | Landing Page | Chat Interface | Remedy Example | Login/Register |
 |:------------:|:--------------:|:--------------:|:--------------:|

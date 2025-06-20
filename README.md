@@ -1,44 +1,108 @@
-# AyurBot
+# AyurMate
 
-- AyurBot is an intelligent chatbot designed to provide personalized recommendations on Ayurvedic wellness practices.
-- With AyurBot, you can access the benefits of Ayurveda from the comfort of your own home, 24/7.
-- It is built using cutting-edge technologies such as Flask, NLTK, Keras, Python, and others.
-- AyurBot uses natural language processing (NLP) to understand and interpret user input, allowing it to provide customized guidance to users.
-- AyurBot's user-friendly interface makes it easy to interact with user experience.
-- Technologies used - ```Flask```, ```NLTK```, ```Keras```, and ```Python```
+AyurMate is a modern, AI-powered Ayurvedic chatbot web application that blends traditional Ayurvedic wisdom with advanced technology. It offers multilingual support, user authentication, persistent chat history, and a visually appealing, professional user interface.
 
-**About AyurBot:**<br/>
-- In my Python web-based project, I have created a AyurBot(chatbot) that employs advanced deep learning and Flask techniques. The AyurBot(chatbot) is trained on a comprehensive dataset comprising categories (intents), patterns, and corresponding responses. To classify the user's message into the appropriate category, I have implemented a sophisticated artificial neural network (ANN). Once the message is categorized, the AyurBot(chatbot) selects a random response from the list of possible responses for that category. This approach ensures that the AyurBot(chatbot) can effectively engage with users and respond appropriately to their queries.
+## 🌿 Project Overview
 
-**The Dateset:**<br/>
-- The dataset that I have utilize in my AyurBot(chatbot) is stored in a JSON file named 'data.json'. This JSON file contains a comprehensive list of patterns that the chatbot will identify, and their corresponding responses that will be returned to the user. By leveraging the data stored in 'data.json', our chatbot will be able to engage with users effectively and provide relevant responses based on their queries.
+AyurMate is designed to make Ayurvedic knowledge accessible to everyone. Users can interact with the chatbot in English, Hindi, or Kannada, receive personalized remedies (with images), and manage their chat history securely. The application is built with Flask, SQLAlchemy, and a neural network for intent detection.
 
-**Prerequisites:**<br/>
-- To undertake this project, it is essential to possess a solid understanding of Python programming, Keras deep learning framework, and Natural Language Processing (NLP) concepts. Additionally, I have employed several helper modules, which can be downloaded using the python-pip command. To install these dependencies, execute the following commands:
+## ✨ Features
+
+- **Multilingual Support:** Communicate in English, Hindi, or Kannada. The chatbot translates queries and responses for seamless interaction.
+- **Voice Interaction:** Speak to the bot and receive spoken responses (including Hindi and Kannada).
+- **Visual Remedies:** Suggested remedies include images and names for better understanding.
+- **User Authentication:** Secure login, registration, and logout with session management.
+- **Persistent Chat History:** Each user's chat sessions are saved, can be reviewed, managed (delete/download sessions).
+- **Modern UI:** Responsive, attractive design consistent across landing, login, and chat pages.
+- **Session Management:** Sidebar for switching between chat sessions, with remedy images and names displayed per message.
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8+
+- pip
+
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone <repo-url>
+   cd AyurBot
+   ```
+2. **Create a virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Download NLTK data (if not already present):**
+   ```python
+   import nltk
+   nltk.download('wordnet')
+   nltk.download('punkt')
+   ```
+5. **Set up environment variables:**
+   - Create a `.env` file in the root directory and add your API keys and secret key:
+     ```env
+     SECRET_KEY=your-secret-key
+     GOOGLE_API_KEY=your-google-api-key
+     SEARCH_ENGINE_ID=your-search-engine-id
+     OPENAI_API_KEY=your-openai-api-key
+     ```
+6. **Run the application:**
+   ```bash
+   python app.py
+   ```
+
+## 🖥️ Usage
+- Visit the landing page to learn about AyurMate.
+- Register or log in to access the chatbot.
+- Start a new chat or review previous sessions in the sidebar.
+- Download or delete chat sessions as needed.
+
+## 🛠️ Tech Stack
+- **Backend:** Flask, Flask-Login, Flask-SQLAlchemy, Keras, NLTK, OpenAI API
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Database:** SQLite
+- **Other:** Google Custom Search API, Deep Translator
+
+## 📁 Folder Structure
 ```
-pip install tensorflow
-pip install keras
-pip install pickle
-pip install nltk
-pip install flask
+AyurBot/
+├── app.py                # Main Flask application
+├── models.py             # Database models
+├── requirements.txt      # Python dependencies
+├── static/               # Static files (CSS, images)
+├── templates/            # HTML templates
+├── training.py           # Model training script
+├── model.h5              # Trained neural network model (ignored in git)
+├── data.json             # Intents and remedies data (ignored in git)
+├── labels.pkl, texts.pkl # Model data (ignored in git)
+├── nltk_data/            # NLTK data (ignored in git)
+├── instance/             # Runtime files (ignored in git)
+├── venv/                 # Virtual environment (ignored in git)
+└── ...
 ```
 
-These modules are crucial to the chatbot's functionality and enable us to streamline the development process, achieve optimal performance, and create a highly responsive and effective chatbot that can interact with users seamlessly.
-# Demonstration of my Project
+## 📸 Screenshots
+Add your screenshots to a `screenshots/` folder and reference them here:
 
-### Building the model
-- I have developed a deep neural network consisting of three layers using the Keras sequential API. After training the model for 200 epochs, it has achieved an outstanding accuracy rate of 100%. The model has been saved as 'model.h5' for future use, allowing the AyurBot(chatbot) to accurately classify user messages and provide relevant responses, resulting in a highly responsive and effective user engagement solution.
-<img width="960" alt="training" src="https://user-images.githubusercontent.com/73652119/229339702-23660e66-2bbe-452c-b25f-beaff295872e.PNG">
+| Landing Page | Chat Interface | Remedy Example | Login/Register |
+|:------------:|:--------------:|:--------------:|:--------------:|
+| ![](screenshots/landing.png) | ![](screenshots/chat.png) | ![](screenshots/remedy.png) | ![](screenshots/login.png) |
 
-### Running Flask App
-<img width="960" alt="app" src="https://user-images.githubusercontent.com/73652119/229339878-804cfc63-71e9-45b4-a18e-8c56507fbd9b.PNG">
+## 🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
 
-### Output
-<img width="960" alt="output" src="https://user-images.githubusercontent.com/73652119/229339911-15ab18f7-68a1-4273-a7ea-f4bc2f08c60e.PNG">
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### AyurBot Response
-<img width="960" alt="response" src="https://user-images.githubusercontent.com/73652119/229339935-45aabf75-9724-4008-a4dd-c52a1e290720.PNG">
+## 🙏 Acknowledgements
+- [Vivian Serrao](https://www.vivianserrao.com/) for development
+- [NLTK](https://www.nltk.org/), [Flask](https://flask.palletsprojects.com/), [Keras](https://keras.io/), [OpenAI](https://openai.com/), [Deep Translator](https://pypi.org/project/deep-translator/)
 
-## Made by
-- [@ravi1chauhan](https://github.com/ravi1chauhan)
+---
+© 2024 AyurMate - Developed by Vivian Serrao
 

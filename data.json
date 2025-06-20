@@ -8,18 +8,18 @@
                 "Hii",
                 "Hey",
                 "hi there",
-                "",
                 "How are you",
                 "Is anyone there?",
                 "Hello",
                 "Good day"
             ],
             "responses": [
-                "Hey :-)",
-                "Hello, thanks for visiting",
-                "Hello how are you feeling today?",
-                "Hi there, what can I do for you?",
-                "Hi there, how can I help?"
+                "Hello! How can I help you with your health today?",
+                "Hi there! How are you feeling today?",
+                "Hello! I'm here to help with Ayurvedic remedies. How are you feeling?"
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -28,26 +28,32 @@
                 "Bye",
                 "See you later",
                 "Goodbye",
-                "by",
-                "byy"
+                "bye",
+                "byy",
+                "good bye",
+                "take care"
             ],
             "responses": [
-                "See you later, thanks for visiting",
-                "Have a nice day",
-                "Bye! Come back again soon."
+                "Take care and stay healthy!",
+                "Goodbye! Remember to take care of your health.",
+                "See you later! Stay well."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
             "tag": "talk",
             "patterns": [
-                "Hi, How is it going?",
-                "How do you do?",
                 "Nice to meet you."
             ],
-            "response": [
+            "responses": [
                 "The HCareBot is working great! How are you feeling today?",
                 "Thank you. How can i assist you? How are you feeling today?",
                 "I'm doing well. How are you feeling today?"
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -57,21 +63,35 @@
                 "Thank you",
                 "That's helpful",
                 "Thank's a lot!",
-                "thnx"
+                "thnx",
+                "thanks a lot",
+                "thank you so much"
             ],
             "responses": [
-                "Happy to help!",
-                "Any time!",
-                "My pleasure"
+                "Happy to help! Take care of your health.",
+                "You're welcome! Stay healthy.",
+                "Glad I could help! Take care."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
-            "tag": "interest",
+            "tag": "about",
             "patterns": [
-                "What are your interests"
+                "What are your interests",
+                "What can you do",
+                "Who are you",
+                "What is your purpose",
+                "How can you help me"
             ],
             "responses": [
-                " I am interested in helping you in Home Made Remedies for your health!"
+                "I am AyurMate, an Ayurvedic health assistant. I can help you with natural remedies and health advice based on Ayurvedic principles.",
+                "I'm here to provide you with Ayurvedic remedies and natural health solutions.",
+                "I specialize in suggesting Ayurvedic home remedies for various health concerns."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -81,6 +101,9 @@
             ],
             "responses": [
                 "I am offline. So I am present at the same location as you."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -89,7 +112,10 @@
                 "Where are you from"
             ],
             "responses": [
-                "We are located at Bharati Vidyapeeth Deemed University Department of Engineering and Technology, Navi Mumbai as of now."
+                "We are located at Nitte Deemed University Department of Master of Computer Appliaction."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -99,6 +125,9 @@
             ],
             "responses": [
                 "Ravi & his healthcare counselling team created me."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -108,6 +137,9 @@
             ],
             "responses": [
                 "Ravi & his healthcare counselling team created me."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -117,6 +149,9 @@
             ],
             "responses": [
                 "I was created in March 2023."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -125,7 +160,10 @@
                 " What is your name"
             ],
             "responses": [
-                "My Name is AyurBot."
+                "My Name is AyurMate."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -141,6 +179,9 @@
             ],
             "responses": [
                 "Good to know. How may i assist you then?"
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -155,6 +196,9 @@
             ],
             "responses": [
                 "Okay. Can you tell me what's wrong? What are your symptoms?"
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -164,6 +208,9 @@
             ],
             "responses": [
                 "Okay, this is a symptom of cold, do you have cold?"
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -171,10 +218,20 @@
             "patterns": [
                 "i have cold",
                 "i have a cold",
-                "cold"
+                "cold",
+                "runny nose",
+                "blocked nose",
+                "nasal congestion"
             ],
             "responses": [
-                "Take ½ teaspoon of Haldi powder and ½ teaspoon of pepper powder with milk add a 1 teaspoon honey, 3 times a day. It helps you in cold."
+                "For cold relief, mix ½ teaspoon of turmeric powder and ½ teaspoon of black pepper powder in warm milk. Add 1 teaspoon honey. Take this mixture 3 times a day. You can also try ginger tea with honey for additional relief.",
+                "Try this Ayurvedic remedy for cold: Mix turmeric and black pepper powder (½ teaspoon each) in warm milk, add honey. Take 3 times daily. Ginger tea is also very effective."
+            ],
+            "remedy": [
+                "turmeric",
+                "black pepper",
+                "honey",
+                "ginger"
             ]
         },
         {
@@ -184,6 +241,9 @@
             ],
             "responses": [
                 "Good, now take some rest."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -195,17 +255,25 @@
             ],
             "responses": [
                 "What kind of cough do you have : 1. Wet cough 2. Dry cough"
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
             "tag": "Wet cough",
             "patterns": [
                 "i have a wet cough",
-                "wet cough",
+                "wet cough",    
                 "wet"
             ],
             "responses": [
                 "Wet cough - Take 1 teaspoon honey. Add 1 teaspoon of ginger juice and 1 pinch of black pepper. Take once in the morning and once before going to bed at night to get relief from Wet cough."
+            ],
+            "remedy": [
+                "honey",
+                "ginger",
+                "pepper powder"
             ]
         },
         {
@@ -217,18 +285,30 @@
             ],
             "responses": [
                 "Dry cough - Basil (Tulsi) leaves and ginger are very effective in relieving an irritating dry cough. You can either chew basil (tulsi) leaves or take fresh ginger with hot water. It helps you in dry cough"
+            ],
+            "remedy": [
+                "basil",
+                "ginger"
             ]
         },
         {
             "tag": "fever",
             "patterns": [
-                "My body temperature has raised.",
+                "My body temperature has raised",
                 "i have fever",
                 "i am suffering from fever",
-                "fever"
+                "fever",
+                "high temperature",
+                "feeling hot"
             ],
             "responses": [
-                "Basil (Tulsi) is an effective herb & It help reduce fever very quickly.                Take about 20 basil (tulsi) leaves and boil them, now add 1 teaspoon of crushed ginger in the strained tulsi water, and boil until the solution gets reduced to half. Add a little honey and drink this tea two or three times a day for three days to get relief from fever."
+                "Here's an effective Ayurvedic remedy for fever: Take about 20 holy basil (tulsi) leaves and boil them. Add 1 teaspoon of crushed ginger in the strained tulsi water, and boil until reduced to half. Add honey and drink this tea 2-3 times a day. This should help reduce the fever.",
+                "For fever relief, prepare a tea with holy basil (tulsi) leaves and ginger. Boil 20 tulsi leaves, add crushed ginger, reduce to half, and add honey. Take this 2-3 times daily."
+            ],
+            "remedy": [
+                "holy basil",
+                "ginger",
+                "honey"
             ]
         },
         {
@@ -239,6 +319,9 @@
             ],
             "responses": [
                 "This is a symptom of fever, Take tea/decoction of about 20 Tulsi leaves 3 times a day till fever subsides. It helps you in fever/shivering."
+            ],
+            "remedy": [
+                "Tulsi"
             ]
         },
         {
@@ -250,6 +333,9 @@
             ],
             "responses": [
                 "what kind of headache do you have : 1. Migrane headache - Pain feels like a tight band around your head. 2. Cluster headache - Pain strikes in a group 3. Tension Headache - Ocassional"
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -261,6 +347,10 @@
             ],
             "responses": [
                 "Migraine Headache - You can drink ginger and basil (tulsi) leaves tea throughout the day when you have pain and don't forget to have it right at the onset of pain."
+            ],
+            "remedy": [
+                "basil",
+                "ginger"
             ]
         },
         {
@@ -272,6 +362,10 @@
             ],
             "responses": [
                 "Cluster Headache - Ginger is known to help reduce the inflammation of the blood vessels in the head, providing relief. One can consume ginger to prevent headaches. Mix equal parts of ginger juice and lemon juice and have it daily twice."
+            ],
+            "remedy": [
+                "ginger",
+                "lemon"
             ]
         },
         {
@@ -283,6 +377,9 @@
             ],
             "responses": [
                 "Tension Headache - Apply heat to relieve tense neck and shoulder muscles. Use a heating pad set on low, a hot water bottle, a hot shower or bath, a warm compress, or a hot towel. Or apply ice or a cool washcloth to the forehead. Massage also can relieve muscle tension — and sometimes headache pain."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -295,6 +392,10 @@
             ],
             "responses": [
                 "Powder of Sonth (dry ginger), Soonf, Pudina dry and equal quantity, boil 1 teaspoon of this mix powder in a cup of water, take 3 times after food to get relief from Heart burn / Acidity."
+            ],
+            "remedy": [
+                "Sonth",
+                "Pudina dry"
             ]
         },
         {
@@ -306,6 +407,12 @@
             ],
             "responses": [
                 "Take 1 teaspoon of fresh ginger juice and 1 teaspoon of lemon juice add a pinch of Black salt and Zeera ½ teaspoon powder take 3 times after food. It helps you in indigestion."
+            ],
+            "remedy": [
+                "ginger",
+                "lemon",
+                "black salt",
+                "zeera"
             ]
         },
         {
@@ -317,6 +424,10 @@
             ],
             "responses": [
                 "Cut one medium size onion in pieces, fry in 1 teaspoon of ghee till it becomes soft eat the whole quantity with a glass of hot water at bed time for 3-5 days. It helps you in constipation."
+            ],
+            "remedy": [
+                "onion",
+                "ghee"
             ]
         },
         {
@@ -329,6 +440,11 @@
             ],
             "responses": [
                 "Crush the Lajwanti plant (Touch me not) apply over the wound Cut Aloe vera leaf into two lengthwise and sprinkle turmeric powder on it place on the wound and bandage."
+            ],
+            "remedy": [
+                "Lajwanti plant",
+                "turmeric",
+                "aloe"
             ]
         },
         {
@@ -341,6 +457,11 @@
             ],
             "responses": [
                 "Prepare oil by boiling 100 gms of Neem leaves and Pudina leaves in mustard oil add 1 teaspoon of salt, boil on low flame for ½ hr, apply on affected area and massage till oil is absorbed 2 times in a day till pain is relieved."
+            ],
+            "remedy": [
+                "neem leaves",
+                "Pudina leaves",
+                "mustard oil"
             ]
         },
         {
@@ -352,6 +473,11 @@
             ],
             "responses": [
                 "Powder Methi, Kalonji and Tukhme Kasni (Chicory seeds Cichorium intybus) equal quantity, take ½ teaspoon daily before food 3 times. Eat plenty of vegetables like Guar beans, Knolkhol, Karela, Bhindi. It helps you in diabetes."
+            ],
+            "remedy": [
+                "Powder Methi",
+                "kalonji",
+                "Tukhme Kasni"
             ]
         },
         {
@@ -365,6 +491,11 @@
             ],
             "responses": [
                 "1 teaspoon Adrak/Sonth juice in a glass of butter milk with lemon & salt. It helps you in stomach/abdominal pain."
+            ],
+            "remedy": [
+                "Sonth",
+                "butter milk",
+                "lemon"
             ]
         },
         {
@@ -374,6 +505,9 @@
             ],
             "responses": [
                 "1 teaspoon Ajvain powder with warm water 1/2 hour before meals."
+            ],
+            "remedy": [
+                "Ajvain Powder"
             ]
         },
         {
@@ -384,6 +518,10 @@
             ],
             "responses": [
                 "1-2 teaspoon Dalchini powder with honey thrice a day in divided doses. It helps you in vomiting."
+            ],
+            "remedy": [
+                "Dalchini",
+                "honey"
             ]
         },
         {
@@ -394,6 +532,10 @@
             ],
             "responses": [
                 "1-2 teaspoon Haldi powder should be taken with jaggery twice a day. It helps you in skin allergy."
+            ],
+            "remedy": [
+                "Haldi powder",
+                "Jaggery"
             ]
         },
         {
@@ -404,6 +546,9 @@
             ],
             "responses": [
                 "Keep fried Hing in carious tooth. It helps you in toothache."
+            ],
+            "remedy": [
+                "Hing"
             ]
         },
         {
@@ -414,6 +559,9 @@
             ],
             "responses": [
                 "Drink coconut water twice daily."
+            ],
+            "remedy": [
+                "Cocunut water"
             ]
         },
         {
@@ -425,6 +573,11 @@
             ],
             "responses": [
                 "Coconut oil processed with Methi powder and Amla powder should be used regularly."
+            ],
+            "remedy": [
+                "Cocunut oil",
+                "Powder Methi",
+                "amla powder"
             ]
         },
         {
@@ -436,6 +589,10 @@
             ],
             "responses": [
                 "10 ml. juice of NEEM leaves with honey twice a day."
+            ],
+            "remedy": [
+                "honey",
+                "neem"
             ]
         },
         {
@@ -446,6 +603,9 @@
             ],
             "responses": [
                 "This might be because you are tired, you should take some rest."
+            ],
+            "remedy": [
+                "unknown"
             ]
         },
         {
@@ -458,6 +618,102 @@
             ],
             "responses": [
                 "Hope you get well soon, Take care!"
+            ],
+            "remedy": [
+                "unknown"
+            ]
+        },
+        {
+            "tag": "immunity",
+            "patterns": [
+                "how to improve immunity",
+                "how to boost immunity",
+                "how to increase immunity",
+                "i have less immunity",
+                "low immunity",
+                "weak immunity",
+                "immunity boost",
+                "improve immune system"
+            ],
+            "responses": [
+                "Here are some effective Ayurvedic remedies to boost your immunity: 1. Take Amla (Indian Gooseberry) daily - it's rich in Vitamin C. 2. Consume a mixture of Turmeric and Honey every morning. 3. Add Ashwagandha to warm milk before bedtime. 4. Include Giloy (Guduchi) in your daily routine - it's known as the root of immortality in Ayurveda.",
+                "To strengthen your immunity naturally: 1. Start your day with Golden Milk (turmeric + warm milk). 2. Take Chyawanprash daily. 3. Consume Amla (Indian Gooseberry) regularly. 4. Add Tulsi (Holy Basil) leaves to your tea. These remedies will help boost your immune system naturally."
+            ],
+            "remedy": [
+                "amla",
+                "turmeric",
+                "honey",
+                "ashwagandha",
+                "giloy",
+                "tulsi"
+            ]
+        },
+        {
+            "tag": "weight_gain",
+            "patterns": [
+                "how to increase weight",
+                "how to gain weight",
+                "weight gain tips",
+                "i am underweight",
+                "i want to gain weight",
+                "ayurvedic medicine for weight gain"
+            ],
+            "responses": [
+                "Here are some Ayurvedic remedies for healthy weight gain: 1. Take Ashwagandha powder with warm milk before bedtime. 2. Consume a mixture of Shatavari powder with milk twice daily. 3. Add Dates and Almonds soaked overnight to your breakfast. 4. Take Chyawanprash daily to improve metabolism and gain healthy weight.",
+                "For natural weight gain through Ayurveda: 1. Mix Ashwagandha powder in warm milk before bed. 2. Have soaked almonds and dates daily. 3. Take Shatavari powder with milk twice a day. These herbs help in healthy weight gain while improving overall strength."
+            ],
+            "remedy": [
+                "ashwagandha",
+                "dates",
+                "almonds",
+                "chyawanprash"
+            ]
+        },
+        {
+            "tag": "body_heat",
+            "patterns": [
+                "my body got heat",
+                "body heat",
+                "how to reduce body heat",
+                "feeling too hot",
+                "internal body heat",
+                "excess body heat",
+                "pitta imbalance"
+            ],
+            "responses": [
+                "To reduce excess body heat (Pitta), try these Ayurvedic remedies: 1. Drink coconut water regularly. 2. Make a cooling drink with Amla (Indian Gooseberry) juice and honey. 3. Consume fresh Aloe Vera gel with water. 4. Take Sandalwood powder mixed with rose water as a cooling paste. These natural remedies will help balance your body temperature.",
+                "For managing body heat naturally: 1. Have a mixture of Mint leaves and Coriander juice. 2. Drink Aloe Vera juice on an empty stomach. 3. Apply a paste of Sandalwood powder mixed with rose water. 4. Include Amla (Indian Gooseberry) in your diet. These remedies help reduce excess Pitta (heat) in the body."
+            ],
+            "remedy": [
+                "coconut water",
+                "amla",
+                "aloe vera",
+                "sandalwood",
+                "mint",
+                "coriander"
+            ]
+        },
+        {
+            "tag": "general_health",
+            "patterns": [
+                "suggest ayurvedic medicine for good life",
+                "how to maintain good health",
+                "daily ayurvedic routine",
+                "ayurvedic lifestyle tips",
+                "daily health tips",
+                "healthy living ayurveda"
+            ],
+            "responses": [
+                "For maintaining good health through Ayurveda: 1. Start your day with warm water and lemon. 2. Take Triphala powder before bed for detoxification. 3. Include Turmeric and Black Pepper in your diet. 4. Consume Amla (Indian Gooseberry) regularly for immunity. 5. Practice oil pulling with coconut oil in the morning.",
+                "Here are daily Ayurvedic practices for optimal health: 1. Have Chyawanprash daily for immunity. 2. Drink Tulsi (Holy Basil) tea for overall wellness. 3. Take Ashwagandha for strength and vitality. 4. Include Triphala for digestive health. Remember to consult an Ayurvedic practitioner for personalized advice."
+            ],
+            "remedy": [
+                "triphala",
+                "turmeric",
+                "amla",
+                "tulsi",
+                "ashwagandha",
+                "chyawanprash"
             ]
         }
     ]

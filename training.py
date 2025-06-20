@@ -7,6 +7,11 @@ import pickle
 import json
 import nltk
 from nltk.stem import WordNetLemmatizer
+
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')  # Sometimes required for `wordnet` to fully work
+
 lemmatizer = WordNetLemmatizer()
 
 
@@ -22,7 +27,8 @@ for intent in intents['intents']:
     for pattern in intent['patterns']:
 
         # tokenize each word
-        w = nltk.word_tokenize(pattern)
+        w = pattern.lower().split()
+
         words.extend(w)
         # add documents in the corpus
         documents.append((w, intent['tag']))
@@ -72,10 +78,9 @@ for doc in documents:
     training.append([bag, output_row])
 # shuffle our features and turn into np.array
 random.shuffle(training)
-training = np.array(training)
-# create train and test lists. X - patterns, Y - intents
-train_x = list(training[:, 0])
-train_y = list(training[:, 1])
+training = np.array(training, dtype=object)  # Added dtype=object to handle mixed data
+train_x = np.array([item[0] for item in training])  # Extract only the feature vectors
+train_y = np.array([item[1] for item in training])  # Extract only the label vectors
 print("Training data created")
 
 
@@ -89,9 +94,8 @@ model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
 # Compile model. Stochastic gradient descent with Nesterov accelerated gradient gives good results for this model
-sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-model.compile(loss='categorical_crossentropy',
-              optimizer=sgd, metrics=['accuracy'])
+sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 # fitting and saving the model
 hist = model.fit(np.array(train_x), np.array(train_y),

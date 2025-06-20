@@ -87,7 +87,7 @@ AyurBot/
 ```
 
 ## 📸 Screenshots
-Add your screenshots to a `screenshots/` folder and reference them here:
+
 
 | Landing Page | Chat Interface | Remedy Example | Login/Register |
 |:------------:|:--------------:|:--------------:|:--------------:|
@@ -104,5 +104,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [NLTK](https://www.nltk.org/), [Flask](https://flask.palletsprojects.com/), [Keras](https://keras.io/), [OpenAI](https://openai.com/), [Deep Translator](https://pypi.org/project/deep-translator/)
 
 ---
-© 2024 AyurMate - Developed by Vivian Serrao
+© 2025 AyurMate - Developed by Vivian Serrao
 

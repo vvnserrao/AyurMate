@@ -87,14 +87,18 @@ AyurBot/
 
 ## 📸 Screenshots
 
-<img width="1727" alt="Home Page" src="https://github.com/user-attachments/assets/710283ae-bd69-4fab-a10c-3e9eb6c4acb3" />
-<br><br>
-<img width="1727" alt="data set response" src="https://github.com/user-attachments/assets/67cbf43f-8eab-406f-98ca-8de90dbe8a5d" />
-<br><br>
-<img width="1728" alt="Screenshot 2025-06-20 at 1 34 47 PM" src="https://github.com/user-attachments/assets/b58eefe9-4722-48a4-86bf-0619f1344a86" />
+<img width="1727" alt="Home Page" src="https://github.com/user-attachments/assets/d9ffb5d1-4bdf-4fce-8b01-349fd6fde369" />
 
 <br><br>
-<img width="1728" alt="Hindi response" src="https://github.com/user-attachments/assets/8fa59e9c-e065-4dfd-8f75-ebee94f8c055" />
+<img width="1727" alt="data set response" src="https://github.com/user-attachments/assets/2a70fce8-8971-44cf-916f-04eb9a3bc2aa" />
+
+<br><br>
+<img width="1728" alt="llama reposne" src="https://github.com/user-attachments/assets/f7840514-a011-4cac-a8a7-92656ae03e25" />
+
+
+<br><br>
+<img width="1728" alt="Screenshot 2025-06-23 at 5 17 37 PM" src="https://github.com/user-attachments/assets/3825632d-6937-4d10-b5c0-124a4a39d4de" />
+
 <br>
 
 ## 🤝 Contributing

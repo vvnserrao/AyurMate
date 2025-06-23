@@ -25,7 +25,7 @@ AyurMate is designed to make Ayurvedic knowledge accessible to everyone. Users c
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/vvnserrao/AYURMATE.git
    cd AyurBot
    ```
 2. **Create a virtual environment:**

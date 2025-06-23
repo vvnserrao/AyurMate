@@ -46,7 +46,6 @@ AyurMate is designed to make Ayurvedic knowledge accessible to everyone. Users c
 5. **Set up environment variables:**
    - Create a `.env` file in the root directory and add your API keys and secret key:
      ```env
-     SECRET_KEY=your-secret-key
      GOOGLE_API_KEY=your-google-api-key
      SEARCH_ENGINE_ID=your-search-engine-id
      OPENAI_API_KEY=your-openai-api-key
@@ -88,10 +87,15 @@ AyurBot/
 
 ## 📸 Screenshots
 
+<img width="1727" alt="Home Page" src="https://github.com/user-attachments/assets/710283ae-bd69-4fab-a10c-3e9eb6c4acb3" />
+<br><br>
+<img width="1727" alt="data set response" src="https://github.com/user-attachments/assets/67cbf43f-8eab-406f-98ca-8de90dbe8a5d" />
+<br><br>
+<img width="1728" alt="Screenshot 2025-06-20 at 1 34 47 PM" src="https://github.com/user-attachments/assets/b58eefe9-4722-48a4-86bf-0619f1344a86" />
 
-| Landing Page | Chat Interface | Remedy Example | Login/Register |
-|:------------:|:--------------:|:--------------:|:--------------:|
-| ![](screenshots/landing.png) | ![](screenshots/chat.png) | ![](screenshots/remedy.png) | ![](screenshots/login.png) |
+<br><br>
+<img width="1728" alt="Hindi response" src="https://github.com/user-attachments/assets/8fa59e9c-e065-4dfd-8f75-ebee94f8c055" />
+<br>
 
 ## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
@@ -100,7 +104,6 @@ Contributions are welcome! Please open an issue or submit a pull request for imp
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
-- [Vivian Serrao](https://www.vivianserrao.com/) for development
 - [NLTK](https://www.nltk.org/), [Flask](https://flask.palletsprojects.com/), [Keras](https://keras.io/), [OpenAI](https://openai.com/), [Deep Translator](https://pypi.org/project/deep-translator/)
 
 ---
